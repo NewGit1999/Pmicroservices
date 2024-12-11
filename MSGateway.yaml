@@ -5,7 +5,7 @@ eureka:
 spring:
    cloud:
       gateway:
-        routes::
+        routes:
             - id: microservice-Utilisateur
               uri: lb://Utilisateur
               predicates:
